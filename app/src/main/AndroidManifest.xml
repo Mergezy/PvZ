@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Plants_VS_Zombies_Manual"
+        tools:targetApi="31" >
+        <activity
+            android:name=".sicretPage"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".zFootball"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zDuck"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zMiner"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zStandart"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".garlicPage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".cactusPage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".cherryPage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".peashooterPage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".achivePage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zombiePage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".plantPage"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

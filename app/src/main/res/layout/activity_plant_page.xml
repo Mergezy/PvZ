@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrass"
+    tools:context=".plantPage">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="180dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/lightGrass"
+        android:onClick="goToCactusPage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        app:srcCompat="@drawable/logocactus" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="180dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="goToCherrytPage"
+        android:background="@color/lightGrass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logocherry" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTintMode="add"
+        android:onClick="goToMainPage"
+        android:text="Main MEnu"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="180dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/lightGrass"
+        android:onClick="goToGarlicPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:srcCompat="@drawable/logogarlic" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="180dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGrass"
+        android:onClick="goToPeashooterPage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopeashooter" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="370dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/lightGrass"
+        android:onClick="goToZomiePage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logogotozomb" />
+</androidx.constraintlayout.widget.ConstraintLayout>
